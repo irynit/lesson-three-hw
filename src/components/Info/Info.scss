@@ -1,0 +1,24 @@
+.panels {
+  width: 350px;
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    background-color: #fff;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+  }
+}
